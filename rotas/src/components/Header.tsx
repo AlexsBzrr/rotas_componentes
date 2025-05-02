@@ -5,7 +5,7 @@ const Header = () => {
     <div className="w-full h-16 bg-secondary px-8 flex items-center">
       <h1>
         <ul className="flex gap-4">
-          <li>
+          <li className="text-white">
             <NavLink
               className={({ isActive }) =>
                 isActive
@@ -17,7 +17,7 @@ const Header = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          <li className="text-white">
             <NavLink
               className={({ isActive }) =>
                 isActive
@@ -29,7 +29,7 @@ const Header = () => {
               Contato
             </NavLink>
           </li>
-          <li>
+          <li className="text-white">
             <NavLink
               className={({ isActive }) =>
                 isActive
